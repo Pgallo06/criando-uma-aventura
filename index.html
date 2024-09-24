@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio herdado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Você herda um relogio antigo que pertenceu ao seu falecido avô. Ao examina-lo, percebe que há um
+                compartimento secreto</p>
+            <button class="btn-proximo" data-proximo="1">abrir o campartimento secreto</button>
+            <button class="btn-proximo" data-proximo="2">levar o relogio á um antiquário</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>dentro do compartimento, você encontra um mapa misterioso</p>
+            <button class="btn-proximo" data-proximo="3">seguir o mapa</button>
+            <button class="btn-proximo" data-proximo="4">não seguir</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>ao seguir o mapa, você é levado até uma mansão abandonada nos arredores da cidade</p>
+            <button class="btn-proximo" data-proximo="5">entrar na mansão</button>
+            <button class="btn-proximo" data-proximo="6">ir embora e nunca mais voltar</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você entra na mansão e começa a explora-la, encontrando um maravilhoso e magico tesouro, você irá
+                pega-lo?</p>
+            <button class="btn-proximo" data-proximo="7">aceitar</button>
+            <button class="btn-proximo" data-proximo="8">negar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="cenario-finalBom.jpg" alt="">
+            <p>ao aceitar, você recolhe o tesouro, e no meio dele encontra uma carta do seu avô lhe dizendo para ser
+                feliz, e realizar todos os seus sonhos</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo7.jpg" alt="">
+            <p>você não aceita a herança e decide ganhar a vida pelo seu proprio esforço</p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>você decide voltar e esquecer tudo</p>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>você não segue o mapa e segue em frente</p>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>você leva seu precioso relogio para um antiquario, eles dizem que ele não tem valor, e lhe oferecem um
+                pequeno valor em dinheiro por ele. Você ira aceitar?</p>
+            <button class="btn-proximo" data-proximo="9">sim</button>
+            <button class="btn-proximo" data-proximo="10">não</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>você vende seu relogio e segue sua vida</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>você decide investigar sobre a origem do relogio, quando descobre um compartimento</p>
+            <button class="btn-proximo" data-proximo="1">abrir o campartimento secreto</button>
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
